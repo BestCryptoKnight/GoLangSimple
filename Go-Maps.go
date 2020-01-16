@@ -26,8 +26,9 @@ func main() {
 
 	/* if ok is true, entry is presnt */
 	if ok {
-		fmt.Println("___________________________________")
-		fmt.Println("Capital of India is", capital)
+		fmt.Println(" ________________________________")
+		fmt.Println("| Capital of India is", capital, " |")
+		fmt.Println(" --------------------------------")
 	} else {
 		fmt.Println("___________________________________")
 		fmt.Println("Capital of India is not in the Map")
