@@ -8,3 +8,9 @@ Go language is a programming language initially developed at Google in the year 
 For Download GO Click On Download Button [Download](https://golang.org/dl/)
 
 ## `DaTa-Type`
+Data-Type specify the type of data that a valid `Go-Varible` can hold. 
+In Golang there 4 types of data-types.
+- Basic Types    --> Numbers, Strings and Booleans
+- Aggretae type  --> Array And Structs
+- Reference Type --> Pointers, Sclices , Maps, Functions and channels
+- Interface Type -->
