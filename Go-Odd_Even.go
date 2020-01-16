@@ -1,3 +1,4 @@
+/* Go Function to find odd even by simple divide by 2 */
 package main
 
 import "fmt"
