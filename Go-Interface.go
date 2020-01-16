@@ -3,9 +3,7 @@ implements these interfaces to have method definations for the method signature 
 
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 /* define an interface */
 type Circle struct {
@@ -19,7 +17,7 @@ type Rectangle struct {
 
 /* Define a method for circle */
 func (circle Circle) area() float64 {
-	return math.pi * circle.radius * circle.radius
+	return 3.14 * circle.radius * circle.radius
 }
 
 /* Define a method for rectangle */
