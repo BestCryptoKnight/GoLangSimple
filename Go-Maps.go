@@ -21,8 +21,8 @@ func main() {
 		fmt.Println("Capital of ", country, "is", capital)
 	}
 	/* Test if the country present in the map or not */
-
-	capital, ok := countryCapitalMap["India"]
+	const find = "India"
+	capital, ok := countryCapitalMap[find]
 
 	/* if ok is true, entry is presnt */
 	if ok {
